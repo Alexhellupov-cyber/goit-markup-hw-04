@@ -1,0 +1,305 @@
+
+*,
+*::before,
+*::after {
+        box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,p {
+        margin-top: 0;
+        margin-bottom: 0;
+}
+
+ul,ol {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 0;
+}
+img {
+ display: block;
+}
+body {
+    font-family: "Roboto", sans-serif;
+     background-color: #fff;
+     color: #434455;
+}
+ul {
+        list-style: none;
+
+}
+a {
+        text-decoration: none;
+        font-style: normal ;
+}
+.header .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 15px;       
+}
+.container {
+        max-width: 1158px;
+        padding: 0 15px;
+        margin: 0 auto;
+}
+.navigation {
+        display: flex;
+        align-items: center;
+}
+.logo {
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #4d5ae5;
+        padding: 24px 0;
+        margin-right: 76px;
+}
+.logo-span {
+    color: #2e2f42;
+    padding: 24px 0;
+}
+.header {
+ background-color: #fff;
+ border-bottom: 1px solid #e7e9fc;
+}
+.menu {
+        display: flex;
+        gap: 40px;
+}
+.menu .link {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+        display: block;
+        padding: 24px 0;
+}
+.menu .link:hover, .menu .link:focus {
+  color: #404bbf;
+}
+.menu .link:active {
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #404bbf;
+}
+.info {
+ font-style: normal;
+ 
+}
+.contacts {
+        display: flex;
+        gap: 40px;
+}
+.contacts .contacts-link {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+        padding: 24px 0;
+}
+.contacts .contacts-link:hover, .contacts .contacts-link:focus {
+ color: #404bbf;
+
+}
+.first-section {
+        background: #2e2f42;
+        padding: 188px 0;
+
+}
+.title-solutions {
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        color: #fff;
+        margin: 0 auto;
+        margin-bottom: 48px;
+        max-width: 496px;
+        text-align: center;
+}
+.button {
+ background: #4d5ae5;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 1.5;
+ letter-spacing: 0.04em;
+ color: #fff;
+ display: block;
+ min-width: 169px;
+ height: 56px;
+ cursor: pointer;
+ border: none;
+ border-radius: 4px;
+ margin: 0 auto;
+}
+.button:hover, .button:focus {
+        background: #404bbf;
+        color: #fff;
+}
+.second-section {
+        padding: 120px 0;
+}
+.invisible {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+}
+.solutions {
+display: flex;
+gap: 24px;
+}
+.list-one {
+        max-width: calc((100% - 72px) / 4);
+}
+.title {
+        margin-bottom: 8px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+.text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+.our-team {
+        background-color: #f4f4fd; 
+        padding: 120px 0;
+}
+.title-our-team {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        text-transform: capitalize;
+        color: #2e2f42;
+        margin-bottom: 72px;
+}
+.list {
+        display: flex;
+        gap: 24px;
+        align-items: center;
+        justify-content: center;
+}
+.text-container {
+        padding: 32px 0;
+}
+.img-people {
+        display: block;
+        margin-bottom: 32px;
+        max-width: 100%;
+}
+.list-our-team {
+        background-color: #FFFFFF;
+        max-width: calc((100% - 72px) / 4);
+        border-radius: 0 0 4px 4px;
+        
+}
+.title-name {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+        margin-bottom: 8px;
+}
+.text-describe {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+        text-align: center;
+}
+.our-portfolio {
+        padding: 120px 0;
+}
+.title-portfolio {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        text-transform: capitalize;
+        color: #2e2f42;
+        margin-bottom: 72px;
+}
+.portfolio {
+        display: flex;
+        flex-wrap:wrap;
+        gap: 24px;
+        row-gap: 48px;
+}
+.portfolio .list-portfolio {
+        background-color: #FFFFFF;
+        max-width: calc((100% - 48px) / 3);
+}
+.portfolio-container {
+        padding: 32px 16px;
+        border: 1px solid #e7e9fc;
+        border-top: none;
+}
+.portfolio .caption {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+        margin-bottom: 8px;
+}
+.portfolio .subtitle {
+
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+.end {
+        background-color: #2e2f42;
+        padding: 100px 0;
+}
+.logo-end {
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
+        display: inline-block;
+        justify-content: start;
+        margin-bottom: 16px;
+        
+}
+.logo-span-end {
+        color: #f4f4fd;
+}
+.text-end {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
+        max-width: 264px;
+}
